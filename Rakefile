@@ -5,7 +5,7 @@ require 'date'
 require 'spec/rake/spectask'
 
 GEM = "dm-appengine"
-GEM_VERSION = "0.1.0"
+GEM_VERSION = "0.1.1"
 HOMEPAGE = "http://code.google.com/p/appengine-jruby"
 SUMMARY = "A DataMapper adapter for Google App Engine"
 
