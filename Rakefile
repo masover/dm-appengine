@@ -26,7 +26,7 @@ spec = Gem::Specification.new do |s|
   s.add_dependency("lexidecimal", ["~> 0.0"])
   
   s.require_path = 'lib'
-  s.autorequire = GEM
+  s.autorequire = "#{GEM}-adapter"
   s.files = %w(LICENSE README.rdoc Rakefile) + Dir.glob("spec/*.rb") + Dir.glob("lib/**/*.rb")
 end
 
